@@ -4,13 +4,18 @@
 
 A game where each player takes turns placing a chip on a board one at a time and they will win if they get 4 in a row in any direction.
 
-![c4 1photo](https://github.com/Carson-Lu/Connect4/assets/54121633/8aaa5a49-4443-40ed-b343-decf10accb5c)
-
-# Features
+## Features
 - You can place a piece by pressing a number \[1-7\]
 - Audio will play when a piece is dropped
 - The application state is saved (placing a piece)
 - Each event (piece being placed) is logged to the console
+- Hovering a column will highlight it
+
+![Connect4](https://github.com/Carson-Lu/Connect4/assets/54121633/f05b311f-ef59-4a0e-935e-9b8f5c55cc12)
+
+### Victory Screen
+
+![Connect4win](https://github.com/Carson-Lu/Connect4/assets/54121633/9658c9b7-94e5-46fe-93ca-099d2bae0cb5)
 
 ## Project Proposal
 
