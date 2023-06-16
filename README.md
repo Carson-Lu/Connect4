@@ -4,6 +4,14 @@
 
 A game where each player takes turns placing a chip on a board one at a time and they will win if they get 4 in a row in any direction.
 
+![c4 1photo](https://github.com/Carson-Lu/Connect4/assets/54121633/8aaa5a49-4443-40ed-b343-decf10accb5c)
+
+# Features
+- You can place a piece by pressing a number \[1-7\]
+- Audio will play when a piece is dropped
+- The application state is saved (placing a piece)
+- Each event (piece being placed) is logged to the console
+
 ## Project Proposal
 
 For my project, I want to create the game **Connect 4** and allow two people to play.
@@ -21,15 +29,11 @@ This project interests me because I would like to learn how to create a game and
 - As a user, I want to be able to load a previous game board and play from there
 - As a user, I want to be able to input any value without the program breaking, even if it doesn't expect that value
 
-# Instructions For Grader
-- You can generate the first required event by clicking on the board and placing a piece onto the board
-- You can generate the second required event by pressing a number \[1-7\] to place a piece on the corresponding column (requires you to first place a piece by clicking the board first though)
-- You can locate my audio component by placing a piece (it will play a sound)
-- You can save the state of my application by playing the game (placing a piece) or clicking the Load game/ Play game buttons (any action will save the game)
-- You can reload the state of my application by opening the application and loading the game
 
 
-# Phase 4: Task 2
+
+
+# Event Logging
 
 Wed Aug 10 09:56:52 PDT 2022
 Player 1 placed a piece at 0
@@ -53,7 +57,7 @@ Wed Aug 10 09:56:54 PDT 2022
 Player 1 placed a piece at 3
 
 
-# Phase 4: Task 3
+# Possible Improvements for the project
 
 - Use observer pattern where Connect4Game is the subject/observable since many UI elements (the observers) rely on it
 - Observers in this case would be the Connect4Frame, BoardPanel, and MenuPanel
